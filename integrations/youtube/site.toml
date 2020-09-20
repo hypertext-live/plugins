@@ -1,0 +1,10 @@
+lang = "en"
+host = "localhost"
+
+[build]
+rewrite-index = false
+layout = true
+
+[page]
+description = "Youtube"
+keywords = "Youtube, Video"

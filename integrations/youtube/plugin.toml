@@ -1,0 +1,10 @@
+name = "youtube"
+version = "1.0.0"
+description = "Embed a video"
+type = "partial"
+keywords = ["Youtube", "Video"]
+origins = ["https://www.youtube.com"]
+
+[handlebars.partials.youtube]
+file = "site/partials/youtube.hbs"
+schema = "schema.json"
