@@ -1,11 +1,9 @@
 name = "search"
 description = "Search runtime assets"
 version = "1.0.0"
+keywords = ["Search", "Index", "Runtime"]
 type = ["asset", "style", "script"]
 
 assets = ["search.wasm"]
 styles = ["search.css"]
 scripts = ["search.js"]
-
-#[dependencies]
-#search = { path = "../search-runtime", version = "1" }
