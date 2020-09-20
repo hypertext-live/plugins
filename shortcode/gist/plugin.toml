@@ -1,6 +1,0 @@
-name = "gist"
-description = "Embed a github gist"
-version = "1.0.0"
-type = "shortcode"
-origins = ["https://gist.github.com"]
-shortcode = { partial = "site/partials/gist.hbs", schema = "schema.json" }
