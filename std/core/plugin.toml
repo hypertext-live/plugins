@@ -1,11 +1,12 @@
-name = "core"
+name = "std::core"
 version = "1.0.0"
 description = "Standard partials and layouts"
 type = "partial"
 keywords = ["Layout", "Partial"]
 
-[handlebars.layouts]
-main = "site/layout.hbs"
+[handlebars.layouts.main]
+file = "site/layout.hbs"
+description  = "Default page layout"
 
 [handlebars.partials.header]
 file = "site/partials/header.hbs"

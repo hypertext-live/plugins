@@ -1,4 +1,4 @@
-name = "search"
+name = "std::search"
 description = "Search runtime assets"
 version = "1.0.0"
 keywords = ["Search", "Index", "Runtime"]
