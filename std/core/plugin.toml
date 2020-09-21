@@ -1,0 +1,57 @@
+name = "core"
+version = "1.0.0"
+description = "Standard partials and layouts"
+type = "partial"
+keywords = ["Layout", "Partial"]
+
+[handlebars.layouts]
+main = "site/layout.hbs"
+
+[handlebars.partials.header]
+file = "site/partials/header.hbs"
+description = "Placeholder for a page header"
+
+[handlebars.partials.footer]
+file = "site/partials/footer.hbs"
+description = "Placeholder for a page footer"
+
+[handlebars.partials.head]
+file = "site/partials/head.hbs"
+description = "Sets the content for a standard page head"
+
+[handlebars.partials.charset]
+file = "site/partials/charset.hbs"
+description = "Adds the utf-8 charset to a page"
+
+[handlebars.partials.title]
+file = "site/partials/title.hbs"
+schema = "schema/title.json"
+description = "Sets the page title"
+
+[handlebars.partials.viewport]
+file = "site/partials/viewport.hbs"
+description = "Sets the page viewport"
+
+[handlebars.partials.edge]
+file = "site/partials/edge.hbs"
+description = "Sets Edge compatibility"
+
+[handlebars.partials.description]
+file = "site/partials/description.hbs"
+schema = "schema/description.json"
+description = "Sets the page description"
+
+[handlebars.partials.keywords]
+file = "site/partials/keywords.hbs"
+schema = "schema/keywords.json"
+description = "Sets the page keywords"
+
+[handlebars.partials.canonical]
+file = "site/partials/canonical.hbs"
+schema = "schema/canonical.json"
+description = "Sets the page canonical URL"
+
+[handlebars.partials.noindex]
+file = "site/partials/noindex.hbs"
+schema = "schema/noindex.json"
+description = "Sets the meta noindex for search robots"
