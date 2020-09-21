@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ feed.language }}">
+  <title>{{ feed.title }}</title>
+  {{#if feed.description}}<subtitle>{{ feed.description }}</subtitle>{{/if}}
+  <link href="{{ feed.feed_url }}" rel="self" type="application/atom+xml"/>
+  <link href="{{ feed.home_page_url }}"/>
+  <generator uri="https://hypertext.live/">Hypertext</generator>
+  <updated></updated>
+  {{#each feed.authors}}
+  <author>
+    <name>{{ name }}</name>
+    {{#if url}}<uri>{{ url }}</uri>{{/if}}
+  </author>
+  {{/each}}
+  <id>{{ feed.feed_url }}</id>
+  {{#each feed.items}}
+  <entry xml:lang="{{#if language}}{{language}}{{else}}{{../feed.language}}{{/if}}">
+    <id>{{ id }}</id>
+    <link href="{{ url }}" type="text/html"/>
+    <title>{{ title }}</title>
+    {{#each authors}}
+    <author>
+      <name>{{ name }}</name>
+      {{#if url}}<uri>{{ url }}</uri>{{/if}}
+    </author>
+    {{/each}}
+    <published>{{ date_published }}</published>
+    <updated>{{ date_modified }}</updated>
+    {{#if content_html}}<content type="html">{{ content_html }}</content>{{else}}<content>{{#if summary}}{{ summary }}{{else}}{{ content_text }}{{/if}}</content>{{/if}}
+  </entry>
+  {{/each}}
+</feed>
