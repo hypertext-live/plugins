@@ -13,9 +13,9 @@ href = "css/general.css"
 [[styles]]
 href = "css/chrome.css"
 
-#[[styles]]
-#href = "css/print.css"
-#media = "print"
+[[styles]]
+href = "css/print.css"
+media = "print"
 
 [[scripts]]
 src = "js/clipboard.min.js"
