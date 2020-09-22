@@ -1,0 +1,62 @@
+name = "font::inter"
+description = "Inter UI"
+version = "3.15.0"
+keywords = ["Font", "UI"]
+type = "font"
+license = "SIL"
+
+styles = ["fonts.css"]
+assets = [
+  "Inter.var.woff2",
+  "Inter-italic.var.woff2",
+  "Inter-roman.var.woff2",
+
+  "Inter-Black.woff",
+  "Inter-Black.woff2",
+  "Inter-BlackItalic.woff",
+  "Inter-BlackItalic.woff2",
+  "Inter-Bold.woff",
+  "Inter-Bold.woff2",
+  "Inter-BoldItalic.woff",
+  "Inter-BoldItalic.woff2",
+  "Inter-ExtraBold.woff",
+  "Inter-ExtraBold.woff2",
+  "Inter-ExtraBoldItalic.woff",
+  "Inter-ExtraBoldItalic.woff2",
+
+  "Inter-ExtraLight.woff",
+  "Inter-ExtraLight.woff2",
+  "Inter-ExtraLightItalic.woff",
+  "Inter-ExtraLightItalic.woff2",
+
+  "Inter-Italic.woff",
+  "Inter-Italic.woff2",
+  "Inter-Light.woff",
+  "Inter-Light.woff2",
+  "Inter-LightItalic.woff",
+  "Inter-LightItalic.woff2",
+
+  "Inter-Medium.woff",
+  "Inter-Medium.woff2",
+  "Inter-MediumItalic.woff",
+  "Inter-MediumItalic.woff2",
+
+  "Inter-Regular.woff",
+  "Inter-Regular.woff2",
+
+  "Inter-SemiBold.woff",
+  "Inter-SemiBold.woff2",
+  "Inter-SemiBoldItalic.woff",
+  "Inter-SemiBoldItalic.woff2",
+
+  "Inter-Thin.woff",
+  "Inter-Thin.woff2",
+  "Inter-ThinItalic.woff",
+  "Inter-ThinItalic.woff2",
+]
+
+[[library]]
+version = "3.15.0"
+website = "https://rsms.me/inter/"
+repository = "https://github.com/rsms/inter"
+
