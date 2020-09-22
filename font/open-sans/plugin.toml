@@ -1,0 +1,21 @@
+name = "font::open-sans"
+description = "Open sans typeface"
+version = "1.0.0"
+keywords = ["Font", "Sans"]
+type = "font"
+license = "Apache-2"
+
+styles = ["fonts.css"]
+
+assets = [
+  "open-sans-v17-all-charsets-300.woff2",
+  "open-sans-v17-all-charsets-300italic.woff2",
+  "open-sans-v17-all-charsets-regular.woff2",
+  "open-sans-v17-all-charsets-italic.woff2",
+  "open-sans-v17-all-charsets-600.woff2",
+  "open-sans-v17-all-charsets-600italic.woff2",
+  "open-sans-v17-all-charsets-700.woff2",
+  "open-sans-v17-all-charsets-700italic.woff2",
+  "open-sans-v17-all-charsets-800.woff2",
+  "open-sans-v17-all-charsets-800italic.woff2",
+]

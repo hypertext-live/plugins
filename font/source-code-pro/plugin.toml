@@ -1,0 +1,12 @@
+name = "font::source-code-pro"
+description = "Source code pro typeface"
+version = "1.0.0"
+keywords = ["Font", "Sans", "Code"]
+type = "font"
+license = "SIL"
+
+styles = ["fonts.css"]
+
+assets = [
+  "source-code-pro-v11-all-charsets-500.woff2"
+]

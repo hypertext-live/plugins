@@ -1,0 +1,29 @@
+name = "std::book"
+version = "1.0.0"
+description = "Template for a standard book format"
+type = "format"
+keywords = ["Book", "Layout", "format"]
+
+[[styles]]
+href = "css/variables.css"
+
+[[styles]]
+href = "css/general.css"
+
+[[styles]]
+href = "css/chrome.css"
+
+#[[styles]]
+#href = "css/print.css"
+#media = "print"
+
+[[scripts]]
+src = "js/clipboard.min.js"
+
+[[scripts]]
+src = "js/book.js"
+
+[handlebars.layouts.main]
+file = "layout.hbs"
+description  = "Book layout"
+
