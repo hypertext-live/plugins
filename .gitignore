@@ -1,4 +1,5 @@
 build
+package
 package.*
 *.lock
 *.bak
