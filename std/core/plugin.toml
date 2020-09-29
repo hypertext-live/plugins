@@ -5,55 +5,55 @@ type = "partial"
 keywords = ["Layout", "Partial"]
 
 [handlebars.layouts.main]
-file = "layouts/layout.hbs"
+file = "handlebars/layouts/layout.hbs"
 description  = "Default page layout"
 
 [handlebars.partials.header]
-file = "partials/header.hbs"
+file = "handlebars/partials/header.hbs"
 description = "Placeholder for a page header"
 
 [handlebars.partials.footer]
-file = "partials/footer.hbs"
+file = "handlebars/partials/footer.hbs"
 description = "Placeholder for a page footer"
 
 [handlebars.partials.head]
-file = "partials/head.hbs"
+file = "handlebars/partials/head.hbs"
 description = "Sets the content for a standard page head"
 
 [handlebars.partials.charset]
-file = "partials/charset.hbs"
+file = "handlebars/partials/charset.hbs"
 schema = "schema/charset.json"
 description = "Adds the utf-8 charset to a page"
 
 [handlebars.partials.title]
-file = "partials/title.hbs"
+file = "handlebars/partials/title.hbs"
 schema = "schema/title.json"
 description = "Sets the page title"
 
 [handlebars.partials.viewport]
-file = "partials/viewport.hbs"
+file = "handlebars/partials/viewport.hbs"
 description = "Sets the page viewport"
 
 [handlebars.partials.edge]
-file = "partials/edge.hbs"
+file = "handlebars/partials/edge.hbs"
 description = "Sets Edge compatibility"
 
 [handlebars.partials.description]
-file = "partials/description.hbs"
+file = "handlebars/partials/description.hbs"
 schema = "schema/description.json"
 description = "Sets the page description"
 
 [handlebars.partials.keywords]
-file = "partials/keywords.hbs"
+file = "handlebars/partials/keywords.hbs"
 schema = "schema/keywords.json"
 description = "Sets the page keywords"
 
 [handlebars.partials.canonical]
-file = "partials/canonical.hbs"
+file = "handlebars/partials/canonical.hbs"
 schema = "schema/canonical.json"
 description = "Sets the page canonical URL"
 
 [handlebars.partials.noindex]
-file = "partials/noindex.hbs"
+file = "handlebars/partials/noindex.hbs"
 schema = "schema/noindex.json"
 description = "Sets the meta noindex for search robots"

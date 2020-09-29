@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "noindex": {
+      "type": "boolean"
+    },
+    "additionalProperties": false,
+    "required": ["noindex"]
+  }
+}
