@@ -3,15 +3,3 @@ version = "1.0.0"
 description = "Templates for feed generation"
 type = "partial"
 keywords = ["Template", "Feed", "RSS", "Atom", "JSON"]
-
-[handlebars.partials.feed]
-file = "handlebars/feed.json"
-description = "Template for a JSON feed"
-
-[handlebars.partials.rss]
-file = "handlebars/rss.xml"
-description = "Template for a RSS feed"
-
-[handlebars.partials.atom]
-file = "handlebars/atom.xml"
-description = "Template for an Atom feed"

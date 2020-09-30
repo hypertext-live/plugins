@@ -5,8 +5,7 @@ keywords = ["Font", "Sans", "Code"]
 type = "font"
 license = "SIL"
 
-styles = ["fonts.css"]
-
-assets = [
-  "source-code-pro-v11-all-charsets-500.woff2"
-]
+[library.source-code-pro]
+version = "1.0.10"
+website = "https://adobe-fonts.github.io/source-code-pro/"
+repository = "https://github.com/adobe-fonts/source-code-pro"

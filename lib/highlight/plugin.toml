@@ -15,7 +15,7 @@ src = "highlight.min.js"
 [[scripts]]
 content = "hljs.initHighlightingOnLoad();"
 
-[[library]]
+[library.highlightjs]
 version = "10.2.0"
 website = "https://highlightjs.org"
 repository = "https://github.com/highlightjs/highlight.js"
