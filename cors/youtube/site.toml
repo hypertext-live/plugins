@@ -1,9 +1,0 @@
-lang = "en"
-host = "localhost"
-
-[build]
-rewrite-index = false
-
-[page]
-description = "Youtube"
-keywords = "Youtube, Video"

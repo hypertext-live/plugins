@@ -4,7 +4,3 @@ description = "Embed a github gist"
 type = "partial"
 keywords = ["Gist", "Github"]
 origins = ["https://gist.github.com"]
-
-[handlebars.partials.gist]
-file = "site/partials/gist.hbs"
-schema = "schema.json"
