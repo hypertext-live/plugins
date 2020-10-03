@@ -17,7 +17,7 @@ if (!HOOK) { fatal("BUILD_HOOK must be set"); }
 const source = path.join(SOURCE, "assets", "css", "style.css");
 const output = path.join(TARGET, "assets", "css", "style.css");
 const config = path.join(HOOK, "postcss.config.js");
-const postcss = "./node_modules/postcss-cli/bin/postcss";
+const postcss = path.join(".", "node_modules", "postcss-cli", "bin", "postcss");
 const cmd = `${postcss} ${source} -o ${output} --config ${config}`;
 
 execSync(cmd, {stdio: 'inherit'});
