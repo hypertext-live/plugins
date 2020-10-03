@@ -3,6 +3,7 @@ version = "1.0.0"
 description = "Library for testing plugin compatibility"
 type = "partial"
 keywords = ["Layout", "Partial"]
+license = ["MIT", "Apache-2.0"]
 
 [dependencies."std::core"]
 version = "~1"

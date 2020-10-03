@@ -3,6 +3,7 @@ version = "10.2.0"
 description = "Adds highlight.js library to a site"
 type = "script"
 keywords = ["Highlight", "Syntax"]
+license = ["MIT", "Apache-2.0"]
 
 # TODO: support style features
 styles = [
@@ -19,4 +20,5 @@ content = "hljs.initHighlightingOnLoad();"
 version = "10.2.0"
 website = "https://highlightjs.org"
 repository = "https://github.com/highlightjs/highlight.js"
+license = "BSD-3-Clause"
 

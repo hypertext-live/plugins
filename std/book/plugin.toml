@@ -3,6 +3,7 @@ version = "1.0.0"
 description = "Template for a standard book format"
 type = "format"
 keywords = ["Book", "Layout", "format"]
+license = ["MIT", "Apache-2.0"]
 
 [[styles]]
 href = "print.css"

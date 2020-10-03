@@ -4,3 +4,4 @@ description = "Embed a github gist"
 type = "partial"
 keywords = ["Gist", "Github"]
 origins = ["https://gist.github.com"]
+license = ["MIT", "Apache-2.0"]

@@ -3,3 +3,4 @@ version = "1.0.6"
 description = "Standard partials and layouts"
 type = "partial"
 keywords = ["Layout", "Partial"]
+license = ["MIT", "Apache-2.0"]

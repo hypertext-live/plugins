@@ -4,3 +4,4 @@ description = "Embed a youtube video"
 type = "partial"
 keywords = ["Youtube", "Video"]
 origins = ["https://www.youtube.com"]
+license = ["MIT", "Apache-2.0"]

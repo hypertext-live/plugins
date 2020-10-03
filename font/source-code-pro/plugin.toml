@@ -3,9 +3,10 @@ description = "Source code pro typeface"
 version = "1.0.0"
 keywords = ["Font", "Sans", "Code"]
 type = "font"
-license = "SIL"
+license = ["MIT", "Apache-2.0"]
 
 [library.source-code-pro]
 version = "1.0.10"
 website = "https://adobe-fonts.github.io/source-code-pro/"
 repository = "https://github.com/adobe-fonts/source-code-pro"
+license = "OFL-1.1"

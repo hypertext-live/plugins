@@ -3,9 +3,10 @@ description = "Open sans typeface"
 version = "1.0.0"
 keywords = ["Font", "Sans"]
 type = "font"
-license = "Apache-2"
+license = ["MIT", "Apache-2.0"]
 
 [library.open-sans]
 version = "2.0.10"
 website = "https://fonts.adobe.com/fonts/open-sans"
 repository = "https://github.com/googlefonts/opensans"
+license = "Apache-2.0"

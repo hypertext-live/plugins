@@ -3,10 +3,10 @@ description = "Inter UI"
 version = "3.15.0"
 keywords = ["Font", "UI"]
 type = "font"
-license = "SIL"
+license = ["MIT", "Apache-2.0"]
 
 [library.inter]
 version = "3.15.0"
 website = "https://rsms.me/inter/"
 repository = "https://github.com/rsms/inter"
-
+license = "OFL-1.1"
