@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("../assets/Inter-ExtraLight.woff2?v=3.15") format("woff2"),
+       url("../assets/Inter-ExtraLight.woff?v=3.15") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url("../assets/Inter-ExtraLightItalic.woff2?v=3.15") format("woff2"),
+       url("../assets/Inter-ExtraLightItalic.woff?v=3.15") format("woff");
+}

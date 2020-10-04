@@ -5,6 +5,9 @@ keywords = ["Font", "UI"]
 type = "font"
 license = ["MIT", "Apache-2.0"]
 
+[features]
+default = ["font::inter::regular"]
+
 [library.inter]
 version = "3.15.0"
 website = "https://rsms.me/inter/"
