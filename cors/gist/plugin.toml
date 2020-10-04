@@ -1,4 +1,4 @@
-name = "gist"
+name = "cors::gist"
 version = "1.0.0"
 description = "Embed a github gist"
 type = "partial"
