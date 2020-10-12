@@ -1,0 +1,5 @@
+<nav class="crumbtrail">
+{{#crumbtrail}}
+{{#if @last}}{{title}}{{else}}<a href="{{@href}}"{{# if description}} title="{{description}}"{{/if}}>{{title}}</a>{{/if}}
+{{/crumbtrail}}
+</nav>
