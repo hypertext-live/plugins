@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "class": {
+      "type": "boolean"
+    },
+    "additionalProperties": false,
+    "required": ["class"]
+  }
+}
