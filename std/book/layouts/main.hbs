@@ -112,7 +112,7 @@
                     <nav class="nav-wrapper" aria-label="Page navigation">
 
                         <!-- Mobile navigation buttons -->
-                        {{#previous menu href}}
+                        {{#previous main href}}
                           {{#page this}}
                             <a rel="prev" href="{{ link href }}"
                               class="mobile-nav-chapters previous"
@@ -125,7 +125,7 @@
                           {{/page}}
                         {{/previous}}
 
-                        {{#next menu href}}
+                        {{#next main href}}
                           {{#page this}}
                             <a rel="next" href="{{ link href }}"
                               class="mobile-nav-chapters next"
@@ -144,7 +144,7 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                {{#previous menu href}}
+                {{#previous main href}}
                   {{#page this}}
                     <a rel="prev" href="{{ link href }}"
                       class="nav-chapters previous"
@@ -156,7 +156,7 @@
                   {{/page}}
                 {{/previous}}
 
-                {{#next menu href}}
+                {{#next main href}}
                   {{#page this}}
                     <a rel="next" href="{{ link href }}"
                       class="nav-chapters next"
