@@ -1,0 +1,6 @@
+name = "std::note"
+version = "1.0.0"
+description = "Render info, tips, warning notes etc"
+type = "partial"
+keywords = ["Layout", "Partial"]
+license = ["MIT", "Apache-2.0"]
