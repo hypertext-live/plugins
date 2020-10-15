@@ -1,7 +1,10 @@
 {
   "type": "object",
   "properties": {
-    "class": {
+    "type": {
+      "type": "string"
+    },
+    "label": {
       "type": "string"
     }
   }

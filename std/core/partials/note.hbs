@@ -1,3 +1,4 @@
-<div class="{{#if class}}{{class}}{{else}}note{{/if}}">
+<div class="note{{#if type}} {{type}}{{/if}}">
+{{#if label}}<span class="label">{{label}}</span>{{/if}}
 {{> @partial-block}}
 </div>
