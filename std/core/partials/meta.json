@@ -10,6 +10,9 @@
     "version": {
       "type": "string"
     },
+    "noindex": {
+      "type": "boolean"
+    },
     "meta": {
       "type": "object"
     }
