@@ -1,6 +1,15 @@
 {
   "type": "object",
   "properties": {
+    "canonical": {
+      "type": "string"
+    },
+    "generator": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
     "meta": {
       "type": "object"
     }
