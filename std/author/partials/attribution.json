@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "authors": {
+      "type": "object"
+    },
+    "additionalProperties": false,
+    "required": ["authors"]
+  }
+}

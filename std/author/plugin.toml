@@ -1,0 +1,6 @@
+name = "std::author"
+version = "1.0.0"
+description = "Attribution and mention partials"
+type = "partial"
+keywords = ["Layout", "Partial"]
+license = ["MIT", "Apache-2.0"]

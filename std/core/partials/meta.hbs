@@ -7,6 +7,6 @@
 {{#each meta~}}
 <meta name="{{@key}}" content="{{this}}">
 {{/each}}
-{{#each authors~}}
+{{#each authors.attributed~}}
 <meta name="author" content="{{name}}{{#if url}} ({{url}}){{/if}}">
 {{/each}}
