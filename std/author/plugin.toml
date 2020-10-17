@@ -1,5 +1,5 @@
 name = "std::author"
-version = "1.0.1"
+version = "1.0.2"
 description = "Attribution and mention partials"
 type = "partial"
 keywords = ["Layout", "Partial"]
