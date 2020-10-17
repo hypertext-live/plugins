@@ -1,5 +1,5 @@
 name = "std::book"
-version = "1.0.1"
+version = "1.0.2"
 description = "Template for a standard book format"
 type = "format"
 keywords = ["Book", "Layout", "format"]
