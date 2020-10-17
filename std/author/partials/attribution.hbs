@@ -1,2 +1,2 @@
-{{#each @root/authors.attributed}}
-<a href="{{url}}" title="{{name}}">{{name}}</a>{{#unless @last}}, {{/unless}}{{/each}}
+{{#each @root/authors.attributed~}}
+{{~> mention key=@key~}}{{#unless @last}}, {{/unless}}{{/each~}}
