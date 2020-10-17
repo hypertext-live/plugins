@@ -1,0 +1,6 @@
+name = "std::listing"
+version = "1.0.0"
+description = "List directory contents"
+type = "partial"
+keywords = ["Layout", "Partial"]
+license = ["MIT", "Apache-2.0"]
