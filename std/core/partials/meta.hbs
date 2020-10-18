@@ -4,9 +4,9 @@
 <meta name="generator" content="{{generator}}">
 <meta name="version" content="{{version}}">
 {{#if noindex}}<meta name="robots" content="noindex">{{/if}}
-{{#each meta~}}
+{{~#each meta~}}
 <meta name="{{@key}}" content="{{this}}">
 {{/each}}
-{{#each authors.attributed~}}
+{{~#each authors.attributed~}}
 <meta name="author" content="{{name}}{{#if url}} ({{url}}){{/if}}">
-{{/each}}
+{{/each~}}
