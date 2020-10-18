@@ -1,6 +1,12 @@
 {
   "type": "object",
   "properties": {
+    "tooltip": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
     "repository": {
       "type": "object",
       "properties": {
