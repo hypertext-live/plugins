@@ -1,0 +1,9 @@
+name = "std::link"
+version = "1.0.0"
+description = "Partials for creating absolute links"
+type = "partial"
+keywords = ["Layout", "Partial"]
+license = ["MIT", "Apache-2.0"]
+
+[features]
+default = []

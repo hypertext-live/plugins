@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "repository": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string"
+        },
+        "edit-path": {
+          "type": "string"
+        }
+      },
+      "required": ["url", "edit-path"]
+    },
+    "additionalProperties": false,
+    "required": ["repository"]
+  }
+}
