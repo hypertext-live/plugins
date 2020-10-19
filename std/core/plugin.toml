@@ -1,5 +1,5 @@
 name = "std::core"
-version = "1.2.14"
+version = "1.3.0"
 description = "Standard partials and layouts"
 type = "partial"
 keywords = ["Layout", "Partial"]
