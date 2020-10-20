@@ -4,7 +4,9 @@
     "charset": {
       "type": "string"
     },
-    "additionalProperties": false,
-    "required": ["charset"]
+    "title": {
+      "type": "string"
+    },
+    "required": ["charset", "title"]
   }
 }
