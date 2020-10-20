@@ -14,6 +14,6 @@ license = "MIT"
 [[hooks.run]]
 path = "node"
 args = ["build.js"]
-files = ["tailwind.config.js", "assets/css/style.css"]
+files = ["tailwind.config.js", "assets/styles/main.css"]
 watch = true
 
