@@ -1,5 +1,5 @@
 name = "std::feed"
-version = "1.0.0"
+version = "2.0.0"
 description = "Templates for feed generation"
 type = "partial"
 keywords = ["Template", "Feed", "RSS", "Atom", "JSON"]
