@@ -1,8 +1,11 @@
-header {
+main header {
   /* Fix for the new.css header shenanigans */
   margin: 0;
   padding-left: 0;
   padding-right: 0;
+
+  position: sticky;
+  top: 0;
 }
 
 body {
@@ -11,11 +14,12 @@ body {
   max-width: none;
   padding: 0;
   border-radius: 0;
+  min-height: 100vh;
 }
 
 main {
   flex: 1;
-  padding: 2rem;
+  /*padding: 2rem;*/
 }
 
 input#sidebar {
@@ -23,20 +27,20 @@ input#sidebar {
 }
 
 input#sidebar + aside {
-  /*margin: 0;*/
   margin-left: -320px;
   width: 320px;
   background: white;
   overflow-y: auto;
   overflow-x: hidden;
   transition: margin-left 0.25s linear;
-  height: 100vh;
   position: sticky;
   top: 0;
+  height: 100vh;
+  /*background: red;*/
 }
 
 input#sidebar:checked + aside {
-  display: block;
+  display: flex;
   margin-left: 0;
 }
 
