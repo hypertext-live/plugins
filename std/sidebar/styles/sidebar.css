@@ -10,16 +10,17 @@ main header {
 
 body {
   display: flex;
+  overflow: hidden;
   /* Fix for the new.css shenanigans */
   max-width: none;
   padding: 0;
   border-radius: 0;
-  min-height: 100vh;
 }
 
 main {
   flex: 1;
-  /*padding: 2rem;*/
+  overflow-y: scroll;
+  height: 100vh;
 }
 
 input#sidebar {
