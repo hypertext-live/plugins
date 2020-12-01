@@ -1,0 +1,21 @@
+input#sidebar {
+  display: none;
+}
+
+input#sidebar + aside {
+  display: none;
+  margin: 0;
+  padding: 1rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 320px;
+  background: white;
+  overflow: auto;
+}
+
+input#sidebar:checked + aside {
+  display: block;
+}
+
