@@ -1,0 +1,6 @@
+name = "std::sidebar"
+version = "1.0.0"
+description = "Standard sidebar"
+type = "partial"
+keywords = ["Layout", "Aside", "Navigation"]
+license = ["MIT", "Apache-2.0"]
