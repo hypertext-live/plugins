@@ -1,22 +1,24 @@
-input#sidebar {
-  display: none;
-}
-
-input#sidebar + aside {
+#sidebar {
   margin-left: -320px;
   width: 320px;
   max-width: 320px;
   background: white;
   overflow-y: auto;
   overflow-x: hidden;
-  /*transition: margin-left 0.25s linear;*/
   position: sticky;
   top: 0;
   height: 100vh;
-  /*background: red;*/
 }
 
-input#sidebar:checked + aside {
+#sidebar.animate {
+  transition: margin-left 0.25s linear;
+}
+
+input#sidebar-toggle {
+  display: none;
+}
+
+input#sidebar-toggle:checked + aside {
   display: block;
   margin-left: 0;
 }
