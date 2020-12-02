@@ -1,28 +1,3 @@
-main header {
-  /* Fix for the new.css header shenanigans */
-  margin: 0;
-  padding-left: 0;
-  padding-right: 0;
-
-  position: sticky;
-  top: 0;
-}
-
-body {
-  display: flex;
-  overflow: hidden;
-  /* Fix for the new.css shenanigans */
-  max-width: none;
-  padding: 0;
-  border-radius: 0;
-}
-
-main {
-  flex: 1;
-  overflow-y: scroll;
-  height: 100vh;
-}
-
 input#sidebar {
   display: none;
 }
@@ -30,6 +5,7 @@ input#sidebar {
 input#sidebar + aside {
   margin-left: -320px;
   width: 320px;
+  max-width: 320px;
   background: white;
   overflow-y: auto;
   overflow-x: hidden;
@@ -41,7 +17,7 @@ input#sidebar + aside {
 }
 
 input#sidebar:checked + aside {
-  display: flex;
+  display: block;
   margin-left: 0;
 }
 
