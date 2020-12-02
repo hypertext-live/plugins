@@ -1,5 +1,7 @@
 {{#if (and repository.url repository.edit-path)~}}
-<a class="github-edit"
+<a
+  class="github-edit"
+  target="{{#if target}}{{target}}{{else}}_blank{{/if}}"
   href="{{repository.url}}{{repository.edit-path}}{{file.path}}"
   title="{{#if tooltip}}{{tooltip}}{{else}}Edit on Github{{/if}}">{{#if text}}{{text}}{{else}}Edit on Github{{/if}}</a>
 {{~/if~}}
