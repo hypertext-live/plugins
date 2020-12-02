@@ -4,7 +4,7 @@
   if (el && sessionStorage) {
     el.checked = sessionStorage.getItem(key);
     el.addEventListener("change", (e) => {
-      sessionStorage.setItem(key, e.currentTarget.checked);
+      sessionStorage.setItem(key, e.currentTarget.checked ? "open" : "");
     });
   }
 })();

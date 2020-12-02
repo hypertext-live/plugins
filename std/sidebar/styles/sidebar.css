@@ -9,7 +9,7 @@ input#sidebar + aside {
   background: white;
   overflow-y: auto;
   overflow-x: hidden;
-  transition: margin-left 0.25s linear;
+  /*transition: margin-left 0.25s linear;*/
   position: sticky;
   top: 0;
   height: 100vh;
