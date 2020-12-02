@@ -1,8 +1,7 @@
 #sidebar {
-  margin-left: -320px;
-  width: 320px;
-  max-width: 320px;
-  background: white;
+  margin-left: var(--sidebar-offset);
+  width: var(--sidebar-width);
+  max-width: var(--sidebar-width);
   overflow-y: auto;
   overflow-x: hidden;
   position: sticky;
