@@ -1,0 +1,10 @@
+{{#with (lookup @root/menus menu)~}}
+{{#previous this @root/href~}}
+{{#page this}}
+<div>
+  &#x27f5;&nbsp;{{#if label}}{{label}}{{else}}Previous: {{/if~}}
+  <a href="{{ link href }}" title="{{title}}">{{title}}</a>
+</div>
+{{~/page}}
+{{~/previous}}
+{{~/with}}

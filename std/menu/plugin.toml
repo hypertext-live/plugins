@@ -1,0 +1,6 @@
+name = "std::menu"
+version = "1.0.0"
+description = "Menu partials"
+type = "partial"
+keywords = ["Layout", "Partial"]
+license = ["MIT", "Apache-2.0"]

@@ -1,0 +1,11 @@
+{{#with (lookup @root/menus menu)~}}
+{{#next this @root/href~}}
+{{#page this}}
+<div>
+  {{#if label}}{{label}}{{else}}Next: {{/if~}}
+  <a href="{{ link href }}" title="{{title}}">{{title}}</a>&nbsp;&#x27f6;
+</div>
+{{~/page}}
+{{~/next}}
+{{~/with}}
+
