@@ -2,7 +2,8 @@
 {{#previous this @root/href~}}
 {{#page this}}
 <div>
-  &#x27f5;&nbsp;{{#if label}}{{label}}{{else}}Previous: {{/if~}}
+  {{#if prev-arrow}}{{prev-arrow}}{{else}}&#x27f5;&nbsp;{{/if~}}
+  {{#if prev-prefix}}{{prev-prefix}}{{else}}Previous: {{/if~}}
   <a href="{{ link href }}" title="{{title}}">{{title}}</a>
 </div>
 {{~/page}}

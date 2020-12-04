@@ -2,8 +2,9 @@
 {{#next this @root/href~}}
 {{#page this}}
 <div>
-  {{#if label}}{{label}}{{else}}Next: {{/if~}}
-  <a href="{{ link href }}" title="{{title}}">{{title}}</a>&nbsp;&#x27f6;
+  {{#if next-prefix}}{{next-prefix}}{{else}}Next: {{/if~}}
+  <a href="{{ link href }}" title="{{title}}">{{title}}</a>
+  {{~#if next-arrow}}{{next-arrow}}{{else}}&nbsp;&#x27f6;{{/if}}
 </div>
 {{~/page}}
 {{~/next}}
