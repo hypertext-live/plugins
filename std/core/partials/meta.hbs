@@ -1,12 +1,16 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-{{#if description~}}<meta name="description" content="{{description}}">{{/if}}
+{{~#if description}}
+<meta name="description" content="{{description}}">
+{{~/if}}
 <meta name="generator" content="{{generator}}">
 <meta name="version" content="{{version}}">
-{{#if noindex}}<meta name="robots" content="noindex">{{/if}}
-{{~#each meta~}}
+{{~#if noindex~}}
+<meta name="robots" content="noindex">
+{{~/if}}
+{{#each meta~}}
 <meta name="{{@key}}" content="{{this}}">
-{{/each}}
+{{~/each}}
 {{~#each authors.attributed~}}
 <meta name="author" content="{{name}}{{#if url}} ({{url}}){{/if}}">
 {{/each~}}
