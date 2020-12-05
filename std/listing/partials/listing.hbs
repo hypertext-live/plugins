@@ -1,13 +1,13 @@
 <ul class="{{#if class}}{{class}}{{else}}listing{{/if}}">
-{{#menu list=true include-index=include-index}}
+{{#menu list=true}}
 {{~#if @self~}}
 <li class="selected">
-<a href="{{link href}}" title="{{description}}">{{title}}</a>
-<p>{{description}}</p>
+<a href="{{link href}}" title="{{title}}">{{title}}</a>
+{{#if with-description}}<p>{{description}}</p>{{/if}}
 </li>
 {{else}}
 <li>
-<a href="{{link href}}" title="{{description}}">{{title}}</a>
-<p>{{description}}</p>
+<a href="{{link href}}" title="{{title}}">{{title}}</a>
+{{#if with-description}}<p>{{description}}</p>{{/if}}
 {{/if}}
 {{~/menu}}</ul>
