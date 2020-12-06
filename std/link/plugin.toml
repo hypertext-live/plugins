@@ -1,5 +1,5 @@
 name = "std::link"
-version = "1.0.1"
+version = "1.0.2"
 description = "Partials for creating absolute links"
 type = "partial"
 keywords = ["Layout", "Partial"]
