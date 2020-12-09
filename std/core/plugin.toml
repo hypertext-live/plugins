@@ -1,6 +1,6 @@
 name = "std::core"
-version = "4.0.0"
-description = "Standard partials and layouts"
+version = "4.1.0"
+description = "Standard layout, partials and stylesheet"
 type = "partial"
 keywords = ["Layout", "Partial"]
 license = ["MIT", "Apache-2.0"]
