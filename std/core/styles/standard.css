@@ -87,7 +87,7 @@ figcaption {
 
 pre, code, samp, kbd {
   color: var(--std-code-color);
-  font-family: var(--std-font-mono);
+  font-family: var(--std-font-mono), var(--std-font-mono);
   font-size: 0.9em;
 }
 
