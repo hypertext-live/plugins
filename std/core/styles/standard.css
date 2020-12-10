@@ -125,3 +125,11 @@ hr {
   border: 0;
   background: var(--std-color);
 }
+
+p, nav, details {
+  margin: 0 0 1em 0;
+}
+
+hr, ul, ol {
+  margin: 1em 0;
+}
