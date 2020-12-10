@@ -6,6 +6,7 @@
   --std-font-sans: helvetica, arial, sans-serif;
   --std-font-mono: monospace;
   --std-background: #fff;
+  --std-background-active: #eee;
   --std-color: #333;
   --std-color-active: #444;
   --std-max-width: 40em;
@@ -23,6 +24,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --std-background: #222;
+    --std-background-active: #333;
     --std-color: #bbb;
     --std-color-active: #ccc;
     --std-link-color: #9bf;
