@@ -1,4 +1,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+{{#each http-equiv~}}
+<meta http-equiv="{{@key}}" content="{{this}}">
+{{~/each}}
 <meta name="viewport" content="width=device-width,initial-scale=1">
 {{~#if description}}
 <meta name="description" content="{{description}}">
