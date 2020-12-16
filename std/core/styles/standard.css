@@ -8,7 +8,6 @@
   --std-background: #fff;
   --std-background-active: #eee;
   --std-color: #333;
-  --std-color-filter: invert(14%) sepia(21%) saturate(0%) hue-rotate(284deg) brightness(96%) contrast(83%);
   --std-color-active: #444;
   --std-max-width: 40em;
   --std-link-color: #03c;
@@ -27,7 +26,6 @@
     --std-background: #222;
     --std-background-active: #333;
     --std-color: #bbb;
-    --std-color-filter: invert(84%) sepia(0%) saturate(0%) hue-rotate(353deg) brightness(90%) contrast(91%);
     --std-color-active: #ccc;
     --std-link-color: #9bf;
     --std-link-color-active: #acf;
