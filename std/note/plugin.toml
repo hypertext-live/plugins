@@ -1,5 +1,5 @@
 name = "std::note"
-version = "1.0.0"
+version = "1.0.1"
 description = "Render info, tips, warning notes etc"
 type = "partial"
 keywords = ["Layout", "Partial"]
