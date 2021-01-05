@@ -2,7 +2,7 @@ name = "font::open-sans"
 description = "Open sans typeface"
 version = "1.0.0"
 keywords = ["Font", "Sans"]
-type = "font"
+type = "library"
 license = ["MIT", "Apache-2.0"]
 
 [library.open-sans]

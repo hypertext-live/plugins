@@ -1,7 +1,7 @@
 name = "cors::youtube"
-version = "1.0.0"
+version = "1.0.1"
 description = "Embed a youtube video"
-type = "partial"
+type = "library"
 keywords = ["Youtube", "Video"]
 origins = ["https://www.youtube.com"]
 license = ["MIT", "Apache-2.0"]

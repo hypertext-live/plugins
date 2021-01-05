@@ -2,5 +2,5 @@ name = "std::search"
 description = "Search runtime assets"
 version = "1.0.0"
 keywords = ["Search", "Index", "Runtime"]
-type = ["asset", "style", "script"]
+type = "library"
 license = ["MIT", "Apache-2.0"]

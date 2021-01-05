@@ -1,7 +1,7 @@
 name = "cors::gist"
-version = "1.0.0"
+version = "1.0.1"
 description = "Embed a github gist"
-type = "partial"
+type = "library"
 keywords = ["Gist", "Github"]
 origins = ["https://gist.github.com"]
 license = ["MIT", "Apache-2.0"]

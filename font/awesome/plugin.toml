@@ -2,7 +2,7 @@ name = "font::awesome"
 description = "Font awesome icons"
 version = "5.14.0"
 keywords = ["Font", "Icons"]
-type = "font"
+type = "library"
 license = ["MIT", "Apache-2.0"]
 
 [library.font-awesome]
