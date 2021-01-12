@@ -1,5 +1,5 @@
 name = "std::link"
-version = "1.0.3"
+version = "1.0.4"
 description = "Partials for creating absolute links"
 repository = "https://github.com/uwe-app/plugins"
 type = "library"
