@@ -1,6 +1,7 @@
 name = "std::menu"
 version = "1.0.0"
 description = "Menu partials"
+repository = "https://github.com/uwe-app/plugins"
 type = "library"
 keywords = ["Layout", "Partial"]
 license = ["MIT", "Apache-2.0"]

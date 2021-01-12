@@ -1,6 +1,7 @@
 name = "font::open-sans"
-description = "Open sans typeface"
 version = "1.0.0"
+description = "Open sans typeface"
+repository = "https://github.com/uwe-app/plugins"
 keywords = ["Font", "Sans"]
 type = "library"
 license = ["MIT", "Apache-2.0"]

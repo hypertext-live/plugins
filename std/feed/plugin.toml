@@ -1,6 +1,7 @@
 name = "std::feed"
 version = "2.0.0"
 description = "Templates for feed generation"
+repository = "https://github.com/uwe-app/plugins"
 type = "library"
 keywords = ["Template", "Feed", "RSS", "Atom", "JSON"]
 license = ["MIT", "Apache-2.0"]

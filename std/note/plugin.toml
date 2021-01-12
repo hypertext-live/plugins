@@ -1,6 +1,7 @@
 name = "std::note"
 version = "1.0.1"
 description = "Render info, tips, warning notes etc"
+repository = "https://github.com/uwe-app/plugins"
 type = "library"
 keywords = ["Layout", "Partial"]
 license = ["MIT", "Apache-2.0"]

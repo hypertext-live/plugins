@@ -1,6 +1,7 @@
 name = "cors::gist"
 version = "1.0.1"
 description = "Embed a github gist"
+repository = "https://github.com/uwe-app/plugins"
 type = "library"
 keywords = ["Gist", "Github"]
 origins = ["https://gist.github.com"]

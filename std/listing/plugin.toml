@@ -1,6 +1,7 @@
 name = "std::listing"
 version = "1.0.2"
 description = "List directory contents"
+repository = "https://github.com/uwe-app/plugins"
 type = "library"
 keywords = ["Layout", "Partial"]
 license = ["MIT", "Apache-2.0"]

@@ -1,6 +1,7 @@
 name = "std::crumbtrail"
 version = "1.0.1"
 description = "Render a crumbtrail navigation"
+repository = "https://github.com/uwe-app/plugins"
 type = "library"
 keywords = ["Layout", "Partial"]
 license = ["MIT", "Apache-2.0"]

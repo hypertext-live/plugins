@@ -1,6 +1,7 @@
 name = "std::link"
-version = "1.0.2"
+version = "1.0.3"
 description = "Partials for creating absolute links"
+repository = "https://github.com/uwe-app/plugins"
 type = "library"
 keywords = ["Layout", "Partial"]
 license = ["MIT", "Apache-2.0"]

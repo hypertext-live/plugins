@@ -1,6 +1,7 @@
 name = "font::source-code-pro"
-description = "Source code pro typeface"
 version = "1.0.0"
+description = "Source code pro typeface"
+repository = "https://github.com/uwe-app/plugins"
 keywords = ["Font", "Sans", "Code"]
 type = "library"
 license = ["MIT", "Apache-2.0"]

@@ -1,6 +1,7 @@
 name = "std::sidebar"
 version = "1.0.1"
 description = "Standard sidebar"
+repository = "https://github.com/uwe-app/plugins"
 type = "library"
 keywords = ["Layout", "Aside", "Navigation"]
 license = ["MIT", "Apache-2.0"]

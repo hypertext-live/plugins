@@ -1,6 +1,7 @@
 name = "std::core"
 version = "4.1.12"
 description = "Standard layout, partials and stylesheet"
+repository = "https://github.com/uwe-app/plugins"
 type = "library"
 keywords = ["Layout", "Partial"]
 license = ["MIT", "Apache-2.0"]

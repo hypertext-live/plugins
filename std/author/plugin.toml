@@ -1,6 +1,7 @@
 name = "std::author"
 version = "1.0.2"
 description = "Attribution and mention partials"
+repository = "https://github.com/uwe-app/plugins"
 type = "library"
 keywords = ["Layout", "Partial"]
 license = ["MIT", "Apache-2.0"]

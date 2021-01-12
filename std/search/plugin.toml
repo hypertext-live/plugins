@@ -1,6 +1,7 @@
 name = "std::search"
-description = "Search runtime assets"
 version = "1.0.0"
+description = "Search runtime assets"
+repository = "https://github.com/uwe-app/plugins"
 keywords = ["Search", "Index", "Runtime"]
 type = "library"
 license = ["MIT", "Apache-2.0"]

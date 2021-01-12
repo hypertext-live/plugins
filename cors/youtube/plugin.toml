@@ -1,6 +1,7 @@
 name = "cors::youtube"
 version = "1.0.1"
 description = "Embed a youtube video"
+repository = "https://github.com/uwe-app/plugins"
 type = "library"
 keywords = ["Youtube", "Video"]
 origins = ["https://www.youtube.com"]

@@ -1,6 +1,7 @@
 name = "font::inter"
-description = "Inter UI"
 version = "3.15.0"
+description = "Inter UI"
+repository = "https://github.com/uwe-app/plugins"
 keywords = ["Font", "UI"]
 type = "library"
 license = ["MIT", "Apache-2.0"]

@@ -1,6 +1,7 @@
 name = "lib::highlight"
 version = "10.2.0"
 description = "Adds highlight.js library to a site"
+repository = "https://github.com/uwe-app/plugins"
 type = "library"
 keywords = ["Highlight", "Syntax"]
 license = ["MIT", "Apache-2.0"]
