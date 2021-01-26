@@ -6,11 +6,6 @@ type = "library"
 keywords = ["Highlight", "Syntax"]
 license = ["MIT", "Apache-2.0"]
 
-# TODO: support style features
-styles = [
-  "css/atom-one-light.css"
-]
-
 [[scripts]]
 src = "highlight.min.js"
 
