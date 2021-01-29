@@ -1,0 +1,7 @@
+name = "std::paginate"
+version = "1.0.0"
+description = "Render a page navigation list"
+repository = "https://github.com/uwe-app/plugins"
+type = "library"
+keywords = ["Layout", "Partial"]
+license = ["MIT", "Apache-2.0"]

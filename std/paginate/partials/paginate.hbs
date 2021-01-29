@@ -1,0 +1,7 @@
+{{#with paginate}}
+<div class="paginate">
+{{#with prev}}← <a href="{{link href}}">Previous</a>{{/with}}
+{{this.name}} / {{this.total}}
+{{#with next}}<a href="{{link href}}">Next</a> →{{/with}}
+</div>
+{{/with}}
