@@ -1,7 +1,11 @@
 {{#with paginate}}
 <div class="paginate">
-{{#with prev}}← <a href="{{link href}}">Previous</a>{{/with}}
-{{this.name}} / {{this.total}}
-{{#with next}}<a href="{{link href}}">Next</a> →{{/with}}
+{{#with prev~}}
+<a href="{{link href}}">{{#if this.previous-label}}{{this.previous-label}}{{else}}Previous{{/if}}</a>
+{{~/with}}
+<div>{{this.name}} / {{this.total}}</div>
+{{#with next~}}
+<a href="{{link href}}">{{#if this.next-label}}{{this.next-label}}{{else}}Next{{/if}}</a>
+{{~/with}}
 </div>
 {{/with}}

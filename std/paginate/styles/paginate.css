@@ -1,6 +1,6 @@
 div.paginate {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 div.paginate > a:first-child {
@@ -10,47 +10,3 @@ div.paginate > a:first-child {
 div.paginate > a:last-child {
   margin-left: 2em;
 }
-
-ol.pages {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  /*line-height: 1.6;*/
-  overflow-x: auto;
-  overflow-y: hidden;
-}
-
-ol.pages li {
-  display: inline-block;
-  flex-shrink: 0;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-  /*border: 1px solid black;*/
-}
-
-ol.pages li.current {
-  align-self: center;
-  /*background: black;*/
-  /*color: white;*/
-  padding: 0 6px;
-}
-
-/*
-ol.pages li.preserve {
-  background: green;
-}
-*/
-
-/*ol.pages li:not(.current):not(.preserve) {*/
-  /*flex-shrink: 1;*/
-  /*min-width: 0;*/
-/*}*/
-
-ol.pages li:not(:last-child) {
-  margin-right: 1em;
-}
-

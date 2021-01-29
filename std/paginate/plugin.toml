@@ -1,5 +1,5 @@
 name = "std::paginate"
-version = "1.0.0"
+version = "1.0.1"
 description = "Render a page navigation list"
 repository = "https://github.com/uwe-app/plugins"
 type = "library"
