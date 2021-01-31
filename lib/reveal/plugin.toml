@@ -1,0 +1,28 @@
+name = "lib::reveal"
+version = "1.0.0"
+description = "Adds the reveal.js presentation library to a site"
+repository = "https://github.com/uwe-app/plugins"
+type = "library"
+keywords = ["Reveal", "Presentation", "Slideshow", "Deck"]
+license = ["MIT", "Apache-2.0"]
+
+[[scripts]]
+content = """
+let deck = new Reveal(document.querySelector('article'), {
+  embedded: true,
+  hash: true,
+  history: true,
+  controls: false,
+  controlsTutorial: false,
+  progress: false,
+  disableLayout: true,
+});
+deck.initialize();
+"""
+
+[library.reveal]
+version = "4.1.0"
+website = "https://revealjs.com"
+repository = "https://github.com/hakimel/reveal.js"
+license = "MIT"
+commit = "0582f57517c97a4c7bfeb58762138c78883f94c5"
