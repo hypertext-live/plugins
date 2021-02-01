@@ -1,5 +1,5 @@
 name = "std::menu"
-version = "1.0.1"
+version = "1.0.2"
 description = "Menu partials"
 repository = "https://github.com/uwe-app/plugins"
 type = "library"

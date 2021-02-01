@@ -1,10 +1,10 @@
 {{#with (lookup @root/menus menu)~}}
 {{#previous this @root/href~}}
 {{#page this}}
-<div>
+<div class="prev-page">
   {{#if prev-arrow}}{{prev-arrow}}{{else}}&#x27f5;&nbsp;{{/if~}}
   {{#if prev-prefix}}{{prev-prefix}}{{else}}Previous: {{/if~}}
-  <a class="prev-page" href="{{ link href }}" title="{{title}}">{{title}}</a>
+  <a href="{{ link href }}" title="{{title}}">{{title}}</a>
 </div>
 {{~/page}}
 {{~/previous}}

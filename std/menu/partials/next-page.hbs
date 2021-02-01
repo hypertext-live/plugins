@@ -1,9 +1,9 @@
 {{#with (lookup @root/menus menu)~}}
 {{#next this @root/href~}}
 {{#page this}}
-<div>
+<div class="next-page">
   {{#if next-prefix}}{{next-prefix}}{{else}}Next: {{/if~}}
-  <a class="next-page" href="{{ link href }}" title="{{title}}">{{title}}</a>
+  <a href="{{ link href }}" title="{{title}}">{{title}}</a>
   {{~#if next-arrow}}{{next-arrow}}{{else}}&nbsp;&#x27f6;{{/if}}
 </div>
 {{~/page}}
