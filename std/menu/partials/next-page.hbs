@@ -3,7 +3,7 @@
 {{#page this}}
 <div>
   {{#if next-prefix}}{{next-prefix}}{{else}}Next: {{/if~}}
-  <a href="{{ link href }}" title="{{title}}">{{title}}</a>
+  <a class="next-page" href="{{ link href }}" title="{{title}}">{{title}}</a>
   {{~#if next-arrow}}{{next-arrow}}{{else}}&nbsp;&#x27f6;{{/if}}
 </div>
 {{~/page}}
