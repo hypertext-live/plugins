@@ -1,6 +1,6 @@
-name = "std::note"
-version = "1.0.1"
-description = "Render info, tips, warning notes etc"
+name = "std::alert"
+version = "1.0.0"
+description = "Render info, tips, warning alerts etc"
 repository = "https://github.com/uwe-app/plugins"
 type = "library"
 keywords = ["Layout", "Partial"]
