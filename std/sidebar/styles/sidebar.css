@@ -7,6 +7,7 @@
   position: sticky;
   top: 0;
   height: 100vh;
+  display: block;
 }
 
 input#sidebar-toggle {
@@ -18,9 +19,18 @@ input#sidebar-toggle:checked + aside {
   margin-left: 0;
 }
 
-@media screen and (min-width: 640px) {
-  input#sidebar-toggle + aside {
-    display: block;
+input#sidebar-toggle:not(:checked) + aside {
+  display: none;
+}
+
+/* Smaller screens invert the logic so the sidebar is hidden initially */
+@media screen and (max-width: 640px) {
+  input#sidebar-toggle:checked + aside {
+    display: none !important;
+  }
+
+  input#sidebar-toggle:not(:checked) + aside {
+    display: block !important;
     margin-left: 0;
   }
 }
