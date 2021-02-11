@@ -1,4 +1,4 @@
-<input id="sidebar-toggle" type="checkbox"{{#if open}} checked{{/if}}>
-<aside id="sidebar"{{#if class}} class="{{class}}"{{/if}}>
+<input id="sidebar-toggle" type="checkbox"{{#if this.open}} checked{{/if}}>
+<aside id="sidebar"{{#if this.class}} class="{{class}}"{{/if}}>
 {{> sidebar-content~}}
 </aside>
