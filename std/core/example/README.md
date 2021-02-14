@@ -1,3 +1,3 @@
-# Default
+# Example
 
-Default website blueprint.
+Example project for the `std::core` plugin to preview the standard stylesheet rendering.
