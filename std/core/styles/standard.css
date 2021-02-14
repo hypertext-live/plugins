@@ -13,6 +13,7 @@
   --std-link-color: #03c;
   --std-link-color-active: #03f;
   --std-link-decoration-color: #03c5;
+  --std-link-transition: all .4s ease-in-out;
   --std-code-color: #009;
   --std-kbd-color: #060;
 
@@ -53,12 +54,13 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2em;
 }
 
-a:link, a:visited {
+a, a:link, a:visited {
   color: var(--std-link-color);
   text-decoration-color: var(--std-link-decoration-color);
   text-underline-offset: .25em;
   text-decoration-thickness: 1px;
   text-decoration-skip-ink: none;
+  transition: var(--std-link-transition);
 }
 
 a:hover, a:active, a:focus {
