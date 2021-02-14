@@ -134,7 +134,7 @@ hr {
   background: var(--std-color);
 }
 
-p, nav, details {
+p, nav, details, dl {
   margin: 0 0 1em 0;
 }
 
