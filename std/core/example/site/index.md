@@ -12,7 +12,7 @@ This is `code`.
 
 ## Emphasis
 
-This is *enphasis*.
+This is *emphasis*.
 
 ## Strong
 
