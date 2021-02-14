@@ -4,7 +4,7 @@ host = "localhost"
 [dependencies."std::core"]
 version = "*"
 path = "../"
-apply = {styles = ["**"]}
+apply = { styles = ["**"] }
 
 [page.meta]
 description = "Website"
