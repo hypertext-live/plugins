@@ -1,5 +1,5 @@
 name = "std::core"
-version = "5.0.1"
+version = "5.0.2"
 description = "Standard layout, partials and stylesheet"
 repository = "https://github.com/uwe-app/plugins"
 type = "library"

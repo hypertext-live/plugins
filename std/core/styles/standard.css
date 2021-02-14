@@ -3,7 +3,7 @@
  */
 
 :root {
-  --std-font-sans: helvetica, arial, sans-serif;
+  --std-font-family: helvetica, arial, sans-serif;
   --std-font-mono: monospace;
   --std-background: #fff;
   --std-background-active: #eee;
@@ -40,7 +40,7 @@
 }
 
 body {
-  font-family: var(--std-font-sans);
+  font-family: var(--std-font-family);
   background: var(--std-background);
   max-width: var(--std-max-width);
   line-height: 1.5;
