@@ -175,3 +175,23 @@ th, td {
 tr:nth-child(even) {
   background-color: var(--std-background-active);
 }
+
+@media print {
+  body {
+    display: block !important;
+    overflow: visible !important;
+  }
+
+  body > aside {
+    display: none !important;
+  }
+
+  main {
+    overflow: visible !important;
+    height: auto !important;
+  }
+
+  main > header, main > footer {
+    display: none !important;
+  }
+}
