@@ -45,6 +45,14 @@
   color: var(--std-selection-color);
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*, *:after, *:before {
+  box-sizing: inherit;
+}
+
 body {
   font-family: var(--std-font-family);
   background: var(--std-background);
